@@ -419,6 +419,7 @@ h3 {
     width: 90%;
     height: auto;
     margin: 0 auto;
+    display: block;
   }
   .project-text {
     display: flex;
