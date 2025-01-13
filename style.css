@@ -395,32 +395,7 @@ h3 {
   }
 }
 
-@media all and (max-width: 768px) {
-  .project-preview {
-    flex-direction: column;
-    text-align: center;
-  }
 
-  .project-img {
-    max-width: 100%;
-  }
-
-  .project-text {
-    max-width: 100%;
-  }
-
-  .experience-item {
-    padding: 15px 20px;
-  }
-
-  .experience-item h3 {
-    font-size: 24px;
-  }
-
-  .experience-item p {
-    font-size: 18px;
-  }
-}
 
 @media all and (max-width: 500px) {
   .header {
@@ -442,6 +417,7 @@ h3 {
   }
   .project-img {
     width: 90%;
+    height: auto;
     margin: 0 auto;
   }
   .project-text {
